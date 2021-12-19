@@ -1,0 +1,12 @@
+create table SalesPeople
+(
+Snum int primary key,
+Sname varchar(50) Unique,
+City varchar(30)
+);
+INSERT INTO SalesPeople VALUES (1001,"Peel London",12);
+INSERT INTO SalesPeople VALUES (1002,"Serres Sanjose",13);
+INSERT INTO SalesPeople VALUES (1004," Motika London",11);
+INSERT INTO SalesPeople VALUES (1007,"Rifkin Barcelona",15);
+INSERT INTO SalesPeople VALUES (1003,"Axelrod Newyork",10);
+SELECT * FROM SalesPeople;
