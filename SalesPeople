@@ -9,4 +9,4 @@ INSERT INTO SalesPeople VALUES (1002,"Serres Sanjose",13);
 INSERT INTO SalesPeople VALUES (1004," Motika London",11);
 INSERT INTO SalesPeople VALUES (1007,"Rifkin Barcelona",15);
 INSERT INTO SalesPeople VALUES (1003,"Axelrod Newyork",10);
-SELECT * FROM SalesPeople;
+SELECT * FROM SalesPeople Where City='London' Or City='Paris';
